@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry artifacts (if you want to ignore the lockfile, otherwise commit it)
+# poetry.lock
+.poetry_cache/
+
+# Build artifacts from Poetry or other packaging
+*.egg-info/
+.installed.cfg
+*.eggs
+
+# Logs and temporary files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
