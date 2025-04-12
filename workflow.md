@@ -1,7 +1,3 @@
-Below is the updated documentation with an added section on how to tag a commit in Git. This section explains the purpose of tags, the two main types of tags (annotated and lightweight), and provides examples and best practices for using them within your Git workflow.
-
----
-
 # Detailed Git Workflow Documentation
 
 Git is a powerful distributed version control system that helps teams collaborate efficiently. A well-designed Git workflow not only improves code management but also ensures that the commit history remains logical and easy to follow. Below, we detail several key components of a robust Git workflow along with explanations and examples.
