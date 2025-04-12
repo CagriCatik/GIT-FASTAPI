@@ -16,6 +16,7 @@ include = "api"
 python = "^3.8"
 fastapi = "^0.95.2"
 uvicorn = { extras = ["standard"], version = "^0.22.0" }
+httpx = "^0.28.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.3.1"
