@@ -77,3 +77,6 @@ venv.bak/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Reports and coverage files
+.html
