@@ -20,12 +20,12 @@ jobs:
       - name: Set Up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'  # Specify your desired Python version here
+          python-version: '3.10'  # Specify your desired Python version here
 
       # Install MkDocs and any additional dependencies (e.g., a theme).
       - name: Install Dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          pip install mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin
 
       # Build the MkDocs site; by default, MkDocs outputs to the `site` directory.
       - name: Build MkDocs Site
